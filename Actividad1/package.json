@@ -1,0 +1,29 @@
+{
+  "name": "tallernode",
+  "version": "1.0.0",
+  "description": "This is a workshop for learning node.js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WMAlex12/TallerNode.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "PostMan",
+    "MySQL",
+    "CORS"
+  ],
+  "author": "WMAlex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WMAlex12/TallerNode/issues"
+  },
+  "homepage": "https://github.com/WMAlex12/TallerNode#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
