@@ -1,29 +1,34 @@
 {
-  "name": "actividad1",
+  "name": "express-workshop",
   "version": "1.0.0",
-  "description": "Uso de Expres",
+  "description": "This is a workshop for learning node.js and express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WMAlex12/TallerNode.git"
+    "url": "git+https://github.com/ZavaletaAdrian/express-workshop.git"
   },
   "keywords": [
     "Node.js",
     "Express",
     "PostMan",
     "MySQL",
-    "CORS"
+    "CORS."
   ],
-  "author": "WMAlex",
+  "author": "Adrian Z",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WMAlex12/TallerNode/issues"
+    "url": "https://github.com/ZavaletaAdrian/express-workshop/issues"
   },
-  "homepage": "https://github.com/WMAlex12/TallerNode#readme",
+  "homepage": "https://github.com/ZavaletaAdrian/express-workshop#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
